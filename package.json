@@ -1,16 +1,7 @@
 {
   "name": "rc-mqtt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
-  "homepage": "https://github.com/andybuibui/rc-mqtt#readme",
-  "bugs": {
-    "url": "https://github.com/andybuibui/rc-mqtt/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/andybuibui/rc-mqtt"
-  },
-  "type": "module",
   "keywords": [
     "mqtt",
     "mqttjs",
@@ -25,6 +16,15 @@
     "esp8266",
     "esp32"
   ],
+  "homepage": "https://github.com/andybuibui/rc-mqtt#readme",
+  "bugs": {
+    "url": "https://github.com/andybuibui/rc-mqtt/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andybuibui/rc-mqtt"
+  },
+  "type": "module",
   "exports": {
     ".": {
       "import": "./dist/rc-mqtt.js",
@@ -75,5 +75,9 @@
   "peerDependencies": {
     "react": ">=18.1.0",
     "react-dom": ">=18.1.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
