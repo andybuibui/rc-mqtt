@@ -2,7 +2,29 @@
   "name": "rc-mqtt",
   "version": "1.0.0",
   "private": false,
+  "homepage": "https://github.com/andybuibui/rc-mqtt#readme",
+  "bugs": {
+    "url": "https://github.com/andybuibui/rc-mqtt/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andybuibui/rc-mqtt"
+  },
   "type": "module",
+  "keywords": [
+    "mqtt",
+    "mqttjs",
+    "rc-mqtt",
+    "react-mqtt",
+    "react-mqttjs",
+    "react-hook-mqtt",
+    "mqtt-react-hooks",
+    "react",
+    "hooks",
+    "context",
+    "esp8266",
+    "esp32"
+  ],
   "exports": {
     ".": {
       "import": "./dist/rc-mqtt.js",
